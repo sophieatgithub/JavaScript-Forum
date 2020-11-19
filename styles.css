@@ -1,0 +1,62 @@
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #DAE0E6;
+}
+
+    header {
+
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            border: thin solid #cad1d8;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+            color: #222222;
+        }
+
+            time {
+                font-size: 12px;
+                align-self: flex-end;
+            }
+
+            h2 {
+                margin: 0;
+                padding: 8px;
+                margin-bottom: 15px;
+                font-size: 18px;
+            }
+
+
+            figure {
+                margin: 0;
+            }
+
+                img {
+                    width: 100%;
+                }
+
+            p {
+                font-size: 14px;
+            }
+
+            .username {
+                font-size: 15px;
+            }
+        
+        button {
+
+        }
