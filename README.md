@@ -10,6 +10,7 @@ Vanilla JavaScript demonstrating REST API, using json-server to mimic a backend.
 - npm
 - json-server
 
+
 ## Installation
 
 ### Prerequisites
@@ -20,11 +21,13 @@ Vanilla JavaScript demonstrating REST API, using json-server to mimic a backend.
 $ npm install npm@latest -g
 ```
 
+
 - node.js
 
 ```sh
 $ npm install node@lts
 ```
+
 
 - live-server
 
@@ -32,10 +35,13 @@ $ npm install node@lts
 $ npm install -g live-server
 ```
 
+
 - JSON server
 ```sh
 $ npm install -g json-server
 ```
+
+### Install
 
 1. Clone the repo
 
@@ -43,11 +49,13 @@ $ npm install -g json-server
 $ git clone https://github.com/sophieatgithub/JavaScript-REST-API.git
 ```
 
+
 2. Install NPM packages
 
 ```sh
 $ npm install
 ```
+
 
 3. Start JSON server
 
@@ -55,13 +63,17 @@ $ npm install
 $ json-server --watch db.json --port 3004
 ```
 
+
 4. Start live-server
 
 ```sh
 $ live-server --watch db.json --port 8080
 ```
 
+
 7. Open brower at http://localhost:8080/
+
+
 
 
 ## Contact
