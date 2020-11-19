@@ -14,19 +14,34 @@
         </header>
         <section>
             <article>
-                <time datetime="2020-11-17 20:00">Posted 2 hours ago</time>
-                <h2>How do you like your coffee in the morning?</h2>
-                <figure>
-                    <img src="./media/coffee.jpg" alt="a cup of coffee">
-                </figure>
-                <p>I like mine with a ginger biscuit.</p>
+                <div>
+                    <div class="post_title">
+                        <h2>How do you like your coffee in the morning?</h2>
+                        <time datetime="2020-11-17 20:00" class="post_time">Posted 2 hours ago</time>
+                    </div>
+                    <figure>
+                        <img src="./media/coffee.jpg" alt="a cup of coffee">
+                    </figure>
+                    <p class="post_comment">I like mine with a ginger biscuit.</p>
+                </div>
                 <br>
-                <button>comment</button>
+                <div class="form_container">
+                    <form>
+                        <label for="comment-input"></label>
+                        <textarea type="text" id="comment-input" maxlength="200" rows="5" placeholder="What would you like to say?">
+                        </textarea>
+                    </form>
+                    <button>COMMENT</button>
+                </div>
                 <br>
                 <br>
-                <p class="username">user123</p>
-                <time datetime="2020-11-18 21:00">15 minutes ago</time>
-                <p>comment content</p>
+                <div class="comment_container">
+                    <div class="comment_title">
+                        <p class="username">user123</p>
+                        <time datetime="2020-11-18 21:00" class="comment_time">posted 15 minutes ago</time>
+                    </div>
+                <p class="comment_content">comment content wdlfaljksnvadkjfa djskfasfjksfhaskjfhajkfhjjafklasjfasklfjsakflsajfkasl fjaslkfjaflkasjfksfjasfkjafk jfkalsfjskl</p>
+                </div>
             </article>
         </section>
     </body>
