@@ -76,9 +76,6 @@ $ live-server --watch db.json --port 8080
 
 
 
-## Contact
-
-Sophie Rossiter - sophrossit@gmail@gmail.com
 
 [Portfolio](https://sophieatgithub.github.io/)
 
