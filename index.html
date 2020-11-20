@@ -28,21 +28,23 @@
                 <div class="form_container">
                     <form>
                         <label for="comment-input"></label>
-                        <textarea type="text" id="comment-input" maxlength="200" rows="5" placeholder="What would you like to say?">
+                        <textarea type="text" id="comment-input" maxlength="500" rows="5" placeholder="What would you like to say?">
                         </textarea>
                     </form>
-                    <button>COMMENT</button>
+                    <button onclick="request()">COMMENT</button>
                 </div>
                 <br>
                 <br>
-                <div class="comment_container">
+                <div id="commentContainer" class="comment_container">
                     <div class="comment_title">
                         <p class="username">user123</p>
                         <time datetime="2020-11-18 21:00" class="comment_time">posted 15 minutes ago</time>
                     </div>
-                <p class="comment_content">comment content wdlfaljksnvadkjfa djskfasfjksfhaskjfhajkfhjjafklasjfasklfjsakflsajfkasl fjaslkfjaflkasjfksfjasfkjafk jfkalsfjskl</p>
+                <p class="comment_content">I like mine with a steaming bowl of oats.</p>
                 </div>
             </article>
         </section>
+        <script src="./api.js"></script>
+        <script src="./print_comments.js"></script>
     </body>
 </html>
