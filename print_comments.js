@@ -1,18 +1,45 @@
 function printComments(data) {  
     for (let i = 0; i < data.length; i++) {
+        let userNameText = data[i].username;
         let commentText = data[i].body;
 
-        //Create each comment elements
-        let commentDiv = document.createElement("p");
+        let dateObject = data[i].time;
+        let dateText = new Date(dateObject.year, dateObject.month, dateObject.day, dateObject.hour);
 
-        //Attach user name, time and content to elements
+        //Create each comment elements
+        let commentTitle = document.createElement("div");
+        let userName = document.createElement("p");
+        let dateElement = document.createElement("p");
+        let commentDiv = document.createElement("p");
+        let lineBreak = document.createElement("br");
+
+        //Attach the class name to the elements
+        commentTitle.className = "comment_title";
+        userName.className = "username";
+        dateElement.className = "comment_time";
+        commentDiv.className = "comment_content";
+
+
+        //Link json data to a variable
+        let usernameContent = document.createTextNode(userNameText);
+        let dateContent = document.createTextNode(dateText);
         let commentContent = document.createTextNode(commentText);
 
+        console.log(dateContent);
 
+        //Attach json variable to element
+        userName.appendChild(usernameContent);
+        dateElement.appendChild(dateContent);
         commentDiv.appendChild(commentContent);
 
+        //Attach username and date to comment title div
+        commentTitle.appendChild(userName);
+        commentTitle.appendChild(dateElement);
+
+        //Attach newly created elemnent to container div
+        commenttitle = document.getElementById("commentContainer").appendChild(commentTitle);
         comment = document.getElementById("commentContainer").appendChild(commentDiv);
-        console.log(comment);
+        linebreak = document.getElementById("commentContainer").appendChild(lineBreak);
     }
 }
 

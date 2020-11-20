@@ -2,14 +2,24 @@
   "comments": [
     {
       "id": 1,
-      "user-name": "throwaway5678",
-      "time": "",
+      "username": "throwaway5678",
+      "time": {
+        "year": "2020",
+        "month": "11",
+        "day" : "20",
+        "hour": "11"       
+      },
       "body": "I like a latte with cocoa sprinkles"
     },
     {
       "id": 2,
-      "user-name": "coffeedrinker34",
-      "time": "",
+      "username": "coffeedrinker34",
+      "time": {
+        "year": "2020",
+        "month": "11",
+        "day" : "20",
+        "hour": "15"
+      },
       "body": "Iced coffee is my favourite"
     }
   ]

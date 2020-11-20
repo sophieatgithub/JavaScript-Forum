@@ -61,8 +61,7 @@ body {
                         width: 100%;
                     }
 
-                .post_comment,
-                .comment_content {
+                .post_comment {
                     padding: 20px 20px 30px 20px;
                     margin: 0;
                 }
@@ -101,13 +100,13 @@ body {
                 }
 
             .comment_container {
-                border-left: medium solid #cad1d8;
                 margin-top: 16px;
             }
 
                 .comment_title {
                     display: flex;
                     align-items: flex-end;
+                    border-left: thin solid #cad1d8;
                 }
 
                     .username {
@@ -119,4 +118,11 @@ body {
                     .comment_time {
                         font-size: 12px;
                         padding: 10px;
+                        margin: 0;
+                    }
+
+                    .comment_content {
+                        padding: 20px 20px 30px 20px;
+                        margin: 0;
+                        border-left: thin solid #cad1d8;
                     }
