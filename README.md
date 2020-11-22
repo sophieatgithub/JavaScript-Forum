@@ -1,5 +1,5 @@
 # JavaScript-Forum
-Vanilla JavaScript demonstrating a forum, utilising the fetch() method to show the comments stored on the 'server' (json-server to mimic a backend).
+Vanilla JavaScript demonstrating a forum, utilising the fetch() method to show the comments stored on the 'server' (json-server to mimic a back-end).
 
 - window.onload sends a fetch request and we receive a json object of all the comments posted.
 - This is then iterated over using a for loop.
