@@ -9,8 +9,6 @@ Vanilla JavaScript demonstrating a forum, utilising the fetch() method to show t
 
 ### Reflection
 
-- I would like to look into the efficiency of this structure. Currently the new Date() function is called, and then the properites are assigned to a currDate object, for each iteration over the json object. This is unnecessary, and I would like to look into ways to only do this once, such as creating a global new Date() object.
-
 - My next step for this project is to create the form, allowing next comments to be posted.
 
 ### Built with
