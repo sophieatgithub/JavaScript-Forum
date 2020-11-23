@@ -2,7 +2,6 @@
 var timeSinceString = [];
 
 function timeSince(props) {
-console.log(props)
 
     if (props.months > 1) {
         timeSinceString.push(props.months + " months ago");

@@ -1,5 +1,16 @@
 function printComments(data) {  
-console.log(data.length);
+
+
+    //Find current date
+    let currDate = new Date();
+
+    let currDateObj = {
+        months: currDate.getMonth() + 1,
+        days: currDate.getDate(),
+        hours: currDate.getHours(),
+        mins: currDate.getMinutes(),
+}
+
     for (let i = 0; i < data.length; i++) {
 
         //Assinging the username and comment strings to variables
@@ -8,7 +19,7 @@ console.log(data.length);
 
         //Assinging the time the comment was posted object, and passing it to the calculator function
         let dateObject = data[i].time;
-        dateDifference(dateObject);
+        dateDifference(dateObject, currDateObj);
 
         //String of timelapse since comment was posted, calculated in date_difference.js adn time_since.js
         let dateText = timeSinceString[i];
