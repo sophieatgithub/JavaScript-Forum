@@ -72,14 +72,14 @@ $ npm install
 3. Start JSON server
 
 ```sh
-$ json-server --watch db.json
+$ json-server --watch db.json --port 3004
 ```
 
 
 4. Start live-server
 
 ```sh
-$ live-server --watch db.json --port 8080
+$ live-server --watch db.json
 ```
 
 
